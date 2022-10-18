@@ -1,0 +1,155 @@
+@media (min-width:1000px){
+    .wel-container .wel .welcome-text h1 {
+        font-size: 5rem !important;
+    }
+    .wel-container .wel .welcome-btn button{
+        padding: 18px 40px !important;
+    }
+    .d_none {
+        display: block !important;
+    }
+    header {
+        padding: 12px 50px 12px 30px !important;
+    }
+    .about .about-img{
+        padding: 125px 5px 125px 5px;
+    } 
+}
+
+@media (min-width:768px){
+    header {
+        padding: 20px 1px;
+    }
+    .navigation.navbar{
+        float: right;
+        font-size: 20px;
+        font-weight: bold;
+        float: right;
+        padding-top: 17px;
+    }
+  
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0 5px;
+        color: #fff;
+        font-size: 17px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    .navigation .navbar-collapse {
+        background: transparent;
+       margin-right: 0px !important;
+        margin-top: -20px;
+    }
+    .auto-diagnose {
+        position: relative;
+        top: -80px;
+        z-index: 999;
+        padding: 0 40px;
+    }
+    .auto-diag-box {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        padding-top: 0px;
+    }
+    .auto-diag-items{
+        box-shadow: #ddd 0px 0px 20px -6px;
+    }
+   
+    .auto-diag-items h3 {
+        font-size: 18px;
+    }
+    .auto-diag-items img {
+        width: 80px;
+        margin: 10px 0;
+    }
+    .auto-diag-items p {
+        text-align: center;
+    }
+    .d_none {
+        display: none;
+    }
+    .welcome {
+        height: 595px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wel-container {
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .wel-container .wel {
+        width: 88%;
+        margin: 0 auto;
+    }
+    .wel-container .wel .welcome-text h1 {
+        font-size: 54px !important;
+    }
+    .wel-container .wel .welcome-text h3 {
+        font-weight: 700;
+        font-size: 38px !important;
+        line-height: .8;
+    }
+    .wel-container .wel .welcome-btn{
+        display: flex;
+    }
+    .wel-container .wel .welcome-btn button{
+        padding: 14px 22px;
+        margin-right: 18px;
+    }
+    .wel-container .wel .welcome-text p {
+        line-height: 2;
+    }
+
+    .about .about-img{
+        padding: 165px 85px 135px;
+    }   
+    .wedo-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10;
+        padding-left: 20px; 
+    }
+    .wedo-img{
+        
+        margin-right: 30px;
+    }
+    
+}
+
+@media (min-width:560px){
+    .welcome-btn button{
+        padding: 18px 50px;
+    }
+    .welcome-text h1 {
+        font-size: 5rem !important;
+    }
+    .welcome-text h3 {
+        font-size: 52px;
+    }
+    .navigation.navbar {
+        padding: 12px 0; 
+    }
+    .navigation .navbar-nav {
+    }
+    .navigation .navbar-collapse {
+        padding: 20x 0px;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 10px;
+        color: #fff;
+    }
+    .about .about-img{
+        background: url(../images/about.png);
+        background-size: 100% 100%;
+        text-align: center;
+        min-height: 700px;
+        padding: 165px 135px 135px;
+    }   
+    .about-inner h3 {
+        font-size: 32px;
+    }
+}
